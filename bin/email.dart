@@ -7,7 +7,7 @@ void main() {
   List<String> listaEmails = ["joao@gmail.com","maria@gmail.com"];
 
   for(String email in listaEmails){
-    print(email);
+    enviarEmail(email);
   }
 
 }
