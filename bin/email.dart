@@ -41,5 +41,11 @@ Map<String, String> pessoasEmails = {
 
 pessoasEmails["enzo"] = "enzo@gmail.com";
 
-print(pessoasEmails["enzo"]);
+print(pessoasEmails.values);
+
+for (String email in pessoasEmails.values){
+  print(email);
+  enviarEmail(email);
+  print("");
+}
 }
