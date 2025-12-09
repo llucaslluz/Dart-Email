@@ -8,6 +8,10 @@ void main() {
 
   listaEmails.add("enzo@gmail.com");
 
+  if(listaEmails.contains("enzo@gmail.com")==false){
+    listaEmails.add("enzo@gmail.com");
+  }
+
   for(String email in listaEmails){
     enviarEmail(email);
   }
