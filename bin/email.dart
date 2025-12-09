@@ -4,9 +4,7 @@ void enviarEmail(String email){
 }
 
 void main() {
-  String joaoEmail = "joao@gmail.com";
-  String mariaEmail= "maria@gmail.com";
+  List<String> listaEmails = ["joao@gmail.com","maria@gmail.com"];
 
-  enviarEmail(joaoEmail);
-  enviarEmail(mariaEmail);
+  print(listaEmails[1]);
 }
