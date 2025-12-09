@@ -4,6 +4,7 @@ void enviarEmail(String email){
 }
 
 void main() {
+  // USANDO O List PARA LISTA
   // List<String> listaEmails = ["joao@gmail.com","maria@gmail.com"];
 
   // listaEmails.add("enzo@gmail.com");
@@ -16,12 +17,22 @@ void main() {
   //   enviarEmail(email);
   // }
 
-  Set<String> setEmails = {"joao@gmail.com","maria@gmail.com"};
+// USANDO Set PARA LISTAS
+  // Set<String> setEmails = {"joao@gmail.com","maria@gmail.com"};
 
-  setEmails.add("enzo@gmail.com");
+  // setEmails.add("enzo@gmail.com");
 
-  for (String email in setEmails){
-    print(email);
-  }
+  // // for (String email in setEmails){
+  // //   print(email);
+  // // }
+
+  // if (setEmails.contains("joao@gmail.com") == true){
+  //   print("o email de joão esta dentro do set");
+  // }
+  // else {
+  //   print("nao esta dentro do set");
+  // }
+
+// USANDO O map PARA LISTA COM UMA CHAVE
 
 }
