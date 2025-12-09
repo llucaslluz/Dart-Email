@@ -43,9 +43,9 @@ pessoasEmails["enzo"] = "enzo@gmail.com";
 
 print(pessoasEmails.values);
 
-for (String email in pessoasEmails.values){
-  print(email);
-  enviarEmail(email);
+for (String nome in pessoasEmails.keys){
+  print(nome);
+  enviarEmail(nome);
   print("");
 }
 }
