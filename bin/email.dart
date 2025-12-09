@@ -34,5 +34,12 @@ void main() {
   // }
 
 // USANDO O map PARA LISTA COM UMA CHAVE
+Map<String, String> pessoasEmails = {
+  "Joao" : "joao@gmail.com",
+  "Maria" : "maria@gmail.com"
+};
 
+pessoasEmails["enzo"] = "enzo@gmail.com";
+
+print(pessoasEmails["enzo"]);
 }
